@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+
+importFrom("limma",lmFit,loessFit,topTable,voom,eBayes)
+importFrom("edgeR",dropEmptyLevels)
+importClassesFrom("limma","LargeDataObject","TestResults")
